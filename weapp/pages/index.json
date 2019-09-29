@@ -1,0 +1,11 @@
+{
+    "navigationBarTitleText": "附近干洗预约服务",
+    "component": true,
+    "usingComponents": {
+        "list": "../components/wepy-list",
+        "group": "../components/group",
+        "panel": "../components/panel",
+        "counter": "../components/counter",
+        "slide-view": "../$vendor/miniprogram-slide-view/miniprogram_dist/index"
+    }
+}
