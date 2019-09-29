@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df740ef2-ccbe-4da8-b413-00cb8ddb6939" name="Default" comment="gitignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="df740ef2-ccbe-4da8-b413-00cb8ddb6939" name="Default" comment="初始化界面">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.wpy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.wpy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weapp/components/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/weapp/components/counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weapp/components/counter.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/weapp/components/counter.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weapp/components/group.js" beforeDir="false" afterPath="$PROJECT_DIR$/weapp/components/group.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weapp/components/group.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/weapp/components/group.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weapp/components/groupitem.js" beforeDir="false" afterPath="$PROJECT_DIR$/weapp/components/groupitem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weapp/components/groupitem.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/weapp/components/groupitem.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weapp/components/wepy-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/weapp/components/wepy-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weapp/components/wepy-list.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/weapp/components/wepy-list.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weapp/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/weapp/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weapp/pages/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/weapp/pages/index.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weapp/pages/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/weapp/pages/index.wxss" afterDir="false" />
     </list>
@@ -42,8 +35,8 @@
       <file leaf-file-name="index.wpy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+            <state relative-caret-position="316">
+              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -79,7 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>wepy 2.</find>
       <find>store</find>
       <find>before-setData</find>
       <find>slide-view</find>
@@ -106,8 +98,10 @@
       <find>right</find>
       <find>span</find>
       <find>bottom</find>
-      <find>tips</find>
       <find>pay</find>
+      <find>margin-right</find>
+      <find>money</find>
+      <find>tips</find>
     </findStrings>
     <replaceStrings>
       <replace>rpx</replace>
@@ -142,8 +136,8 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="215" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="74" />
     <option name="y" value="23" />
     <option name="width" value="1386" />
     <option name="height" value="877" />
@@ -190,7 +184,7 @@
       <workItem from="1569742146875" duration="346000" />
       <workItem from="1569742779292" duration="106000" />
       <workItem from="1569743016790" duration="1218000" />
-      <workItem from="1569744334175" duration="2270000" />
+      <workItem from="1569744334175" duration="3164000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1569742337863</created>
@@ -199,14 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569742337863</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始化界面">
+      <created>1569746633747</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569746633747</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5697000" />
+    <option name="totallyTimeSpent" value="6591000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="24" width="1386" height="877" extended-state="6" />
+    <frame x="74" y="23" width="1386" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24963924" />
@@ -257,14 +258,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="初始化界面" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化界面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/index.wpy</url>
-          <line>46</line>
+          <line>49</line>
           <properties lambdaOrdinal="-1" />
         </line-breakpoint>
       </breakpoints>
@@ -442,8 +444,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        <state relative-caret-position="316">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
         </state>
       </provider>
     </entry>

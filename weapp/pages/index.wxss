@@ -33,7 +33,10 @@
 }
 .bottom .tips {
   font-size: 28rpx;
+  padding-bottom: 20rpx;
+  width: 100%;
   color: #ff3167;
+  text-align: center;
   border-bottom: 0.5rpx solid #cccccc;
 }
 .bottom .pay {
@@ -43,15 +46,22 @@
   font-size: 28rpx;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.bottom .pay .money {
+  margin-left: 30rpx;
+  display: flex;
+  align-items: center;
 }
 .bottom .pay .money label:nth-child(2) {
   color: #ff3167;
   display: inline-block;
 }
 .bottom .pay .confirm {
-  padding: 3rpx;
-  padding-left: 15rpx;
-  padding-right: 15rpx;
+  margin-right: 30rpx;
+  padding: 30rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
   color: white;
   background: linear-gradient(90deg, #FC8D6E, #FFBD85);
 }

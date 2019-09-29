@@ -23,7 +23,10 @@
   </view>
 
   <view class="bottom">
-    <text class="tips">此服务最终以商家报价为准，我们将为您优选性价比最高的商家</text>
+    <view class="tips">
+      <view>此服务最终以商家报价为准，我们将为您</view>
+      <view>优选性价比最高的商家</view>
+    </view>
     <view class="pay">
       <view class="money">
         <label>订金：</label>

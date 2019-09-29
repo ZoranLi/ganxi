@@ -40,7 +40,10 @@
 
   .bottom .tips{
     font-size: 28rpx;
+    padding-bottom: 20rpx;
+    width: 100%;
     color: #ff3167;
+    text-align: center;
     border-bottom: 0.5rpx solid #cccccc;
   }
 
@@ -51,6 +54,13 @@
     font-size: 28rpx;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  .bottom .pay .money{
+    margin-left: 30rpx;
+    display: flex;
+    align-items: center;
   }
 
   .bottom .pay .money label:nth-child(2){
@@ -59,9 +69,10 @@
   }
 
   .bottom .pay .confirm{
-    padding: 3rpx;
-    padding-left: 15rpx;
-    padding-right: 15rpx;
+    margin-right: 30rpx;
+    padding: 30rpx;
+    padding-left: 40rpx;
+    padding-right: 40rpx;
     color: white;
     background: linear-gradient(90deg, #FC8D6E, #FFBD85);
   }
@@ -91,7 +102,10 @@
     </div>
 
     <div class="bottom">
-      <text class="tips">此服务最终以商家报价为准，我们将为您优选性价比最高的商家</text>
+      <div class="tips">
+        <div>此服务最终以商家报价为准，我们将为您</div>
+        <div>优选性价比最高的商家</div>
+      </div>
       <div class="pay">
         <div class="money">
           <span>订金：</span>
